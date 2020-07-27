@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(102, 87, 4), gold, rgb(102, 87, 4));
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    margin: 200px auto 0;
+}
+
+.letter {
+    margin: 30px 5px;
+    height: 120px;
+    width: 85px;
+    font-size: 80px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255, 0.53);
+    color: rgb(92, 82, 25);
+    line-height: 1.5;
+    display: inline-block;
+    animation-name: flip;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.C {
+    animation-duration: 3s;
+}
+
+.O {
+    animation-delay: 1s;
+    animation-duration: 4s;
+}
+
+.N {
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+
+.G {
+    animation-delay: 3s;
+    animation-duration: 4s;
+}
+
+.G {
+    animation-delay: 4s;
+    animation-duration: 4s;
+}
+
+.R {
+    animation-delay: 5s;
+    animation-duration: 4s;
+}
+
+.A {
+    animation-delay: 6s;
+    animation-duration: 4s;
+}
+
+.T {
+    animation-delay: 7s;
+    animation-duration: 4s;
+}
+
+.U {
+    animation-delay: 8s;
+    animation-duration: 4s;
+}
+
+.L {
+    animation-delay: 9s;
+    animation-duration: 4s;
+}
+
+
+.A2 {
+    animation-delay: 10s;
+    animation-duration: 4s;
+}
+
+.T2 {
+    animation-delay: 11s;
+    animation-duration: 4s;
+}
+
+.I {
+    animation-delay: 12s;
+    animation-duration: 4s;
+}
+
+.O2 {
+    animation-delay: 13s;
+    animation-duration: 4s;
+}
+
+.N2 {
+    animation-delay: 14s;
+    animation-duration: 4s;
+}
+
+.S {
+    animation-delay: 15s;
+    animation-duration: 4s;
+}
+
+.symbol {
+    animation-delay: 16s;
+    animation-duration: 4s;
+}
+
+@keyframes flip {
+    100% {
+        transform: rotateY(360deg);
+        background: white;
+        box-shadow: 1px 10px 30px white;
+    }
+}
