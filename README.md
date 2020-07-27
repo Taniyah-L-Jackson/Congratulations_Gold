@@ -6,3 +6,4 @@ A Celebratory Webpage! (Gold Edition)
 * Gold-Styled gradient background
 
 ```Built with HTML & CSS```
+```For Moblie Users, Please Rotate Device```
